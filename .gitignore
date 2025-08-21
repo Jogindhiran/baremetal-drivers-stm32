@@ -1,5 +1,25 @@
-# STM32CubeIDE specific
+# STM32CubeIDE project .gitignore
+
+# Build and debug folders
+/Debug/
+/Release/
+/build/
+
+# IDE settings and metadata
+/.settings/
+/.metadata/
+/.cproject
+/.project
 *.launch
-.settings/
-Debug/
-Release/
+
+# Object files, binaries
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Other auto-generated files
+*.log
+*.d
+
